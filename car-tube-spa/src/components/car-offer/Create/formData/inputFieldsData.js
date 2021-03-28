@@ -1,0 +1,68 @@
+const inputFieldsData = {
+    title: {
+        type: 'text',
+        id: 'create-listing-title',
+        name: 'title',
+        placeholder: 'Enter Title',
+        title: 'Title',
+        isRequired: true,
+    },
+    description: {
+        type: 'text',
+        id: 'create-listing-description',
+        name: 'description',
+        placeholder: 'Enter Description',
+        title: 'Description',
+        isRequired: true,
+    },
+    brand: {
+        type: 'text',
+        id: 'create-listing-brand',
+        name: 'brand',
+        placeholder: 'Enter Car Brand',
+        title: 'Car Brand',
+        isRequired: true,
+    },
+    model: {
+        type: 'text',
+        id: 'create-listing-model',
+        name: 'model',
+        placeholder: 'Enter Car Model',
+        title: 'Car Model',
+        isRequired: true,
+    },
+    year: {
+        type: 'number',
+        id: 'create-listing-year',
+        name: 'year',
+        placeholder: 'Enter Car Year',
+        title: 'Car Year',
+        isRequired: true,
+    },
+    imageUrl: {
+        type: 'text',
+        id: 'create-listing-imageUrl',
+        name: 'imageUrl',
+        placeholder: 'Enter Car Image Url',
+        title: 'Car Image Url',
+        isRequired: true,
+    },
+    fuel: {
+        type: 'text',
+        id: 'create-listing-fuel',
+        name: 'fuel',
+        placeholder: 'Enter Car Fuel Type',
+        title: 'Car Fuel Type',
+        isRequired: true,
+    },
+    price: {
+        type: 'number',
+        id: 'create-listing-price',
+        name: 'price',
+        placeholder: 'Enter Car Price',
+        title: 'Car Price',
+        isRequired: true,
+    },
+};
+
+export default inputFieldsData;

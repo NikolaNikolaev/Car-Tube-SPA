@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+    <!-- MY LISTING TEMPLATE -->
+    <script type="text/x-handlebars-template" id="my-listing-template">
+            <div class="my-listing">
+                    <p id="listing-title">{{title}}</p>
+                    <img src="{{imageUrl}}">
+
+                    <div class="listing-props">
+                        <h2>Brand: {{brand}}</h2>
+                        <h3>Model: {{model}}</h3>
+                        <h3>Year: {{year}}</h3>
+                        <h3>Price: {{price}}$</h3>
+                    </div>
+                   
+                    <div class="my-listing-buttons" onclick="navigateHandler(event)">
+                        <a href="/details/{{key}}" class="my-button-list">Details</a>
+                        <a href="/edit/{{key}}" class="my-button-list">Edit</a>
+                        <a href="/delete" class="my-button-list" data-key="{{key}}" onclick="onDelete(event)">Delete</a>
+                    </div>
+            </div>
+    </script>
+
+</body>
+
+</html>
